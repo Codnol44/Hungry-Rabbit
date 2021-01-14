@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if(!squares[width+1].classList.contains('wall')) direction += width;
       if(squares[enterPointCurrentIndex].classList.contains('exitPoint')) clearInterval(enterPointTimerId);
 
-    }, 300);
+    }, 500);
   }
   moveEnterPoint();
   startGame();
